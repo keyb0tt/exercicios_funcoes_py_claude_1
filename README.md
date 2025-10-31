@@ -257,7 +257,7 @@ of this software and associated documentation files...
 
 ## 📞 Contato
 
-- **GitHub**: [@seu-usuario](https://github.com/seu-usuario)
+- **GitHub**: [@keyb0tt](https://github.com/keyb0tt)
 - **LinkedIn**: [Seu Nome](https://linkedin.com/in/seu-perfil)
 - **Email**: seu.email@exemplo.com
 
