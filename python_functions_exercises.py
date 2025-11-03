@@ -312,8 +312,11 @@ def soma_ate_n(n):
 # Exemplo: fatorial(5) → 120
 
 def fatorial(n):
-    pass
-
+    if n is 0 or n is 1:
+        return 1
+    else:
+        return n * fatorial(n - 1)
+pass
 
 # EXERCÍCIO 24: Potência Recursiva
 # Crie uma função recursiva que calcule base^expoente
@@ -608,6 +611,7 @@ if __name__ == "__main__":
     print("Teste Exercício 21:")
     print(contagem_regressiva(10))
     print("Teste Exercício 22:", soma_ate_n(5))
+    print("Teste Exercício 23:", fatorial(5))
     
     # print("Compare seus resultados com as funções *_solucao")
     
