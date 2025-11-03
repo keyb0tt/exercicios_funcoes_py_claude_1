@@ -234,8 +234,10 @@ def fibonacci_ate(n):
 # Exemplo: remover_duplicatas([1, 2, 2, 3, 1]) → [1, 2, 3]
 
 def remover_duplicatas(lista):
-    pass
-
+    lista_fix = set(lista)
+    lista = list(lista_fix)
+    
+    return lista
 
 # EXERCÍCIO 19: Ordenar Dicionário por Valor
 # Crie uma função que ordene um dicionário pelos valores
@@ -582,7 +584,8 @@ if __name__ == "__main__":
     print("Teste Exercício 14:", contar_palavras('Teste de quantidade de palavras'))
     print("Teste Exercício 15:", eh_primo(7))
     print("Teste Exercício 16:", fatorial_iterativo(5))
-    print("Teste Exercício 16:", fibonacci_ate(10))
+    print("Teste Exercício 17:", fibonacci_ate(10))
+    print("Teste Exercício 18:", remover_duplicatas([1, 2, 3, 3, 3, 4, 5, 5, 6]))
     
     # print("Compare seus resultados com as funções *_solucao")
     
