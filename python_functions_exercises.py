@@ -20,7 +20,7 @@ BLOCO 1: EXERCÍCIOS FÁCEIS (10 exercícios)
 
 def saudacao(nome):
     saudacao = f'Olá, {nome}!'
-    
+
     return saudacao
 
 # EXERCÍCIO 2: Calculadora de Área do Retângulo
@@ -28,8 +28,9 @@ def saudacao(nome):
 # Exemplo: area_retangulo(5, 3) → 15
 
 def area_retangulo(base, altura):
-    pass
+    area = base * altura
 
+    return area    
 
 # EXERCÍCIO 3: Par ou Ímpar
 # Crie uma função que retorne True se o número for par, False se for ímpar
@@ -496,6 +497,7 @@ if __name__ == "__main__":
     
     # Teste suas funções aqui!
     print("Teste Exercício 1:", saudacao("Kaique"))
+    print("Teste Exercício 2:", area_retangulo(5, 10))
     
     # print("Compare seus resultados com as funções *_solucao")
     
