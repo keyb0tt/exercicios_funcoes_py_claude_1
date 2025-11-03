@@ -322,8 +322,15 @@ def fatorial(n):
 # Exemplo: potencia(2, 3) → 8
 
 def potencia(base, expoente):
-    pass
-
+    if expoente is 0:
+        return 1
+    if base is 0:
+        return 0
+    if base and expoente is 0:
+        return 1
+    else:
+        while expoente > 0:
+            return base * potencia(base, expoente - 1)
 
 # EXERCÍCIO 25: Fibonacci Recursivo
 # Crie uma função recursiva que retorne o n-ésimo número de Fibonacci
@@ -611,6 +618,7 @@ if __name__ == "__main__":
     print(contagem_regressiva(10))
     print("Teste Exercício 22:", soma_ate_n(5))
     print("Teste Exercício 23:", fatorial(5))
+    print("Teste Exercício 24:", potencia(2, 3))
     
     # print("Compare seus resultados com as funções *_solucao")
     
