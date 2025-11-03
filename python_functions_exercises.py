@@ -19,8 +19,9 @@ BLOCO 1: EXERCÍCIOS FÁCEIS (10 exercícios)
 # Exemplo: saudacao("Maria") → "Olá, Maria!"
 
 def saudacao(nome):
-    pass  # Substitua 'pass' pela sua solução
-
+    saudacao = f'Olá, {nome}!'
+    
+    return saudacao
 
 # EXERCÍCIO 2: Calculadora de Área do Retângulo
 # Crie uma função que receba base e altura e retorne a área
@@ -494,16 +495,13 @@ if __name__ == "__main__":
     print("=" * 60)
     
     # Teste suas funções aqui!
-    # Exemplo:
-    # print("Teste Exercício 1:", saudacao("João"))
-    # print("Teste Exercício 2:", area_retangulo(5, 3))
+    print("Teste Exercício 1:", saudacao("Kaique"))
     
-    print("\nDica: Descomente as linhas acima e adicione seus testes!")
-    print("Compare seus resultados com as funções *_solucao")
+    # print("Compare seus resultados com as funções *_solucao")
     
     # Exemplo de teste com solução:
-    print("\n--- Exemplo de teste com solução ---")
-    print("Exercício 1:", saudacao_solucao("Maria"))
-    print("Exercício 23:", fatorial_solucao(5))
-    print("Exercício 30:")
-    hanoi_solucao(3, "A", "C", "B")
+    # print("\n--- Exemplo de teste com solução ---")
+    # print("Exercício 1:", saudacao_solucao("Maria"))
+    # print("Exercício 23:", fatorial_solucao(5))
+    # print("Exercício 30:")
+    # hanoi_solucao(3, "A", "C", "B")
