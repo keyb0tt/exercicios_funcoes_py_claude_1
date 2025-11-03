@@ -254,8 +254,18 @@ def ordenar_dict(dicionario):
 # Exemplo: validar_email("user@example.com") → True
 
 def validar_email(email):
-    pass
+    cond_arroba, cond_ponto = (0, 0)
 
+    for caracter in email:
+        if caracter == '@':
+            cond_arroba += 1
+        if caracter == '.':
+            cond_ponto += 1
+
+    if cond_arroba is 1 and cond_ponto is 1:
+        return True
+    else:
+        return False
 
 """
 =============================================================================
@@ -589,6 +599,7 @@ if __name__ == "__main__":
     print("Teste Exercício 17:", fibonacci_ate(10))
     print("Teste Exercício 18:", remover_duplicatas([1, 2, 3, 3, 3, 4, 5, 5, 6]))
     print("Teste Exercício 19:", ordenar_dict({'a': 3, 'b': 1, 'c': 2, 'd': 5, 'e': 4}))
+    print("Teste Exercício 20:", validar_email('testeemail@gmail.com'))
     
     # print("Compare seus resultados com as funções *_solucao")
     
