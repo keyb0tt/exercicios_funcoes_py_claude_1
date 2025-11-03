@@ -208,7 +208,6 @@ def fatorial_iterativo(n):
 
     return fatorial
 
-
 # EXERCÍCIO 17: Fibonacci até N
 # Crie uma função que retorne todos os números de Fibonacci menores que n
 # Exemplo: fibonacci_ate(10) → [0, 1, 1, 2, 3, 5, 8]
