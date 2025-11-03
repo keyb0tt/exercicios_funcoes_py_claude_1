@@ -312,11 +312,10 @@ def soma_ate_n(n):
 # Exemplo: fatorial(5) → 120
 
 def fatorial(n):
-    if n is 0 or n is 1:
+    if n is 0 or n is 1: # Caso base: Fatoriais !1 e !0 sempre serão 1
         return 1
     else:
-        return n * fatorial(n - 1)
-pass
+        return n * fatorial(n - 1) 
 
 # EXERCÍCIO 24: Potência Recursiva
 # Crie uma função recursiva que calcule base^expoente
