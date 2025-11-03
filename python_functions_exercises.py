@@ -115,8 +115,9 @@ def eh_maior_de_idade(idade):
 # Exemplo: repetir("Ha", 3) → "HaHaHa"
 
 def repetir(texto, n):
-    pass
+    texto_repetido = texto * n
 
+    return texto_repetido
 
 """
 =============================================================================
@@ -526,6 +527,7 @@ if __name__ == "__main__":
     print("Teste Exercício 7:", inverter('Teste'))
     print("Teste Exercício 8:", calcular_media([10, 20, 30]))
     print("Teste Exercício 9:", eh_maior_de_idade(21))
+    print("Teste Exercício 10:", repetir('Texto', 4))
     
     # print("Compare seus resultados com as funções *_solucao")
     
