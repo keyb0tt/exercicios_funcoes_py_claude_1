@@ -164,8 +164,10 @@ def eh_palindromo(palavra):
 # Exemplo: contar_palavras("Python é incrível") → 3
 
 def contar_palavras(frase):
-    pass
+    palavras = frase.split()
+    qnt_palavras = len(palavras)
 
+    return qnt_palavras
 
 # EXERCÍCIO 15: Números Primos
 # Crie uma função que verifique se um número é primo
@@ -541,6 +543,7 @@ if __name__ == "__main__":
     print("Teste Exercício 11:", validar_cpf('12345678901'))
     print("Teste Exercício 12:", calculadora(10, 2, '*'))
     print("Teste Exercício 13:", eh_palindromo('arara'))
+    print("Teste Exercício 14:", contar_palavras('Teste de quantidade de palavras'))
     
     # print("Compare seus resultados com as funções *_solucao")
     
