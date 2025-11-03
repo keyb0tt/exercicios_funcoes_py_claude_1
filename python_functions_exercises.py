@@ -182,6 +182,9 @@ def eh_primo(numero):
         return False
     # Descarta casos base do número primo
     
+    # O loop é tratado para verificar apenas números ímpares (avançando de 2 em 2),
+    # e vai até a raiz de numero pois se existir um divisor maior que a raiz do número
+    # seu par multiplicativo seria menor que a raíz de número, e já teria sido encontrada
     for i in range(3, int(numero**0.5) + 1, 2):
         if numero % i == 0:
             return False
