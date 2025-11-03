@@ -213,8 +213,21 @@ def fatorial_iterativo(n):
 # Exemplo: fibonacci_ate(10) → [0, 1, 1, 2, 3, 5, 8]
 
 def fibonacci_ate(n):
-    pass
+    fibonacci = [0, 1]
 
+    def proximo_elemento():
+        proximo_num = fibonacci[-1] + fibonacci[-2]
+        
+        return proximo_num
+
+    for i in range(n):
+        proximo_num = proximo_elemento()
+        
+        if proximo_num <= n:
+            fibonacci.append(int(proximo_num))
+        
+        else:
+            return fibonacci        
 
 # EXERCÍCIO 18: Remover Duplicatas
 # Crie uma função que remova elementos duplicados de uma lista
@@ -569,6 +582,7 @@ if __name__ == "__main__":
     print("Teste Exercício 14:", contar_palavras('Teste de quantidade de palavras'))
     print("Teste Exercício 15:", eh_primo(7))
     print("Teste Exercício 16:", fatorial_iterativo(5))
+    print("Teste Exercício 16:", fibonacci_ate(10))
     
     # print("Compare seus resultados com as funções *_solucao")
     
