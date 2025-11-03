@@ -91,7 +91,14 @@ def inverter(texto):
 # Exemplo: calcular_media([10, 20, 30]) → 20.0
 
 def calcular_media(numeros):
-    pass
+    soma_numeros = 0
+
+    for numero in numeros:
+        soma_numeros += numero
+    
+    media_numeros = soma_numeros / len(numeros)
+
+    return media_numeros
 
 
 # EXERCÍCIO 9: Verificar Maioridade
@@ -516,6 +523,7 @@ if __name__ == "__main__":
     print("Teste Exercício 5:", celsius_para_fahrenheit(42))
     print("Teste Exercício 6:", contar_vogais('Vogaisteste'))
     print("Teste Exercício 7:", inverter('Teste'))
+    print("Teste Exercício 8:", calcular_media([10, 20, 30]))
     
     # print("Compare seus resultados com as funções *_solucao")
     
