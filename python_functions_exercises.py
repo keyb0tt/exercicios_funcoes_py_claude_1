@@ -154,8 +154,10 @@ def calculadora(a, b, operacao):
 # Exemplo: eh_palindromo("arara") → True
 
 def eh_palindromo(palavra):
-    pass
-
+    if palavra[::-1] == palavra:
+        return True
+    else:  
+        return False
 
 # EXERCÍCIO 14: Contador de Palavras
 # Crie uma função que conte o número de palavras em uma frase
@@ -538,6 +540,7 @@ if __name__ == "__main__":
     print("Teste Exercício 10:", repetir('Texto', 4))
     print("Teste Exercício 11:", validar_cpf('12345678901'))
     print("Teste Exercício 12:", calculadora(10, 2, '*'))
+    print("Teste Exercício 13:", eh_palindromo('arara'))
     
     # print("Compare seus resultados com as funções *_solucao")
     
