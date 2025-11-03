@@ -174,8 +174,19 @@ def contar_palavras(frase):
 # Exemplo: eh_primo(7) → True, eh_primo(10) → False
 
 def eh_primo(numero):
-    pass
-
+    if numero < 2:
+        return False
+    if numero == 2:
+        return True
+    if numero % 2 == 0:
+        return False
+    # Descarta casos base do número primo
+    
+    for i in range(3, int(numero**0.5) + 1, 2):
+        if numero % i == 0:
+            return False
+    
+    return True
 
 # EXERCÍCIO 16: Fatorial Iterativo
 # Crie uma função que calcule o fatorial usando loop
@@ -544,6 +555,7 @@ if __name__ == "__main__":
     print("Teste Exercício 12:", calculadora(10, 2, '*'))
     print("Teste Exercício 13:", eh_palindromo('arara'))
     print("Teste Exercício 14:", contar_palavras('Teste de quantidade de palavras'))
+    print("Teste Exercício 15:", eh_primo(7))
     
     # print("Compare seus resultados com as funções *_solucao")
     
