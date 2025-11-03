@@ -37,7 +37,10 @@ def area_retangulo(base, altura):
 # Exemplo: eh_par(4) → True, eh_par(7) → False
 
 def eh_par(numero):
-    pass
+    if numero % 2 == 0:
+        return True
+    else:
+        return False
 
 
 # EXERCÍCIO 4: Maior de Três Números
@@ -498,6 +501,7 @@ if __name__ == "__main__":
     # Teste suas funções aqui!
     print("Teste Exercício 1:", saudacao("Kaique"))
     print("Teste Exercício 2:", area_retangulo(5, 10))
+    print("Teste Exercício 3:", eh_par(12))
     
     # print("Compare seus resultados com as funções *_solucao")
     
