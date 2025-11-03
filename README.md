@@ -171,7 +171,7 @@ def fatorial(n):
 Marque com ✅ conforme for completando:
 
 ### Bloco 1: Fáceis
-- [✅] Exercício 1 - Saudação Personalizada
+- ✅ Exercício 1 - Saudação Personalizada
 - [ ] Exercício 2 - Área do Retângulo
 - [ ] Exercício 3 - Par ou Ímpar
 - [ ] Exercício 4 - Maior de Três
