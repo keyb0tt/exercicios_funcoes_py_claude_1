@@ -140,8 +140,14 @@ def validar_cpf(cpf):
 # Exemplo: calculadora(10, 5, "+") → 15
 
 def calculadora(a, b, operacao):
-    pass
-
+    if operacao == '+':
+        return a + b
+    elif operacao == '-':
+        return a - b
+    elif operacao == '*':
+        return  a * b
+    elif operacao == '/':
+        return a / b
 
 # EXERCÍCIO 13: Palíndromo
 # Crie uma função que verifique se uma palavra é um palíndromo
@@ -530,7 +536,8 @@ if __name__ == "__main__":
     print("Teste Exercício 8:", calcular_media([10, 20, 30]))
     print("Teste Exercício 9:", eh_maior_de_idade(21))
     print("Teste Exercício 10:", repetir('Texto', 4))
-    print("Teste Exercício 10:", validar_cpf('12345678901'))
+    print("Teste Exercício 11:", validar_cpf('12345678901'))
+    print("Teste Exercício 12:", calculadora(10, 2, '*'))
     
     # print("Compare seus resultados com as funções *_solucao")
     
