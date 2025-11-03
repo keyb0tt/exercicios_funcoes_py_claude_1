@@ -196,7 +196,17 @@ def eh_primo(numero):
 # Exemplo: fatorial_iterativo(5) → 120
 
 def fatorial_iterativo(n):
-    pass
+    fatorial = 1
+
+    if n < 0:
+        return False
+    elif n == 0:
+        return False
+    else:
+        for i in range(1, n + 1):
+            fatorial = fatorial * i
+
+    return fatorial
 
 
 # EXERCÍCIO 17: Fibonacci até N
@@ -559,6 +569,7 @@ if __name__ == "__main__":
     print("Teste Exercício 13:", eh_palindromo('arara'))
     print("Teste Exercício 14:", contar_palavras('Teste de quantidade de palavras'))
     print("Teste Exercício 15:", eh_primo(7))
+    print("Teste Exercício 16:", fatorial_iterativo(5))
     
     # print("Compare seus resultados com as funções *_solucao")
     
