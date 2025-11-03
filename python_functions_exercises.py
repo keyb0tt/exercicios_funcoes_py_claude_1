@@ -68,8 +68,14 @@ def celsius_para_fahrenheit(celsius):
 # Exemplo: contar_vogais("python") → 1
 
 def contar_vogais(texto):
-    pass
+    contador = 0
+    vogais = 'aeiouAEIOU'
+    
+    for letra in texto:
+        if letra in vogais:
+            contador += 1
 
+    return contador
 
 # EXERCÍCIO 7: Inverter String
 # Crie uma função que inverta uma string
@@ -507,6 +513,7 @@ if __name__ == "__main__":
     print("Teste Exercício 3:", eh_par(12))
     print("Teste Exercício 4:", maior_de_tres(2, 10, 6))
     print("Teste Exercício 5:", celsius_para_fahrenheit(42))
+    print("Teste Exercício 6:", contar_vogais('Vogaisteste'))
     
     # print("Compare seus resultados com as funções *_solucao")
     
