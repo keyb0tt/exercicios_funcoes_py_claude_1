@@ -172,27 +172,27 @@ Marque com ✅ conforme for completando:
 
 ### Bloco 1: Fáceis
 - ✅ Exercício 1 - Saudação Personalizada
-- [ ] Exercício 2 - Área do Retângulo
-- [ ] Exercício 3 - Par ou Ímpar
-- [ ] Exercício 4 - Maior de Três
-- [ ] Exercício 5 - Conversor de Temperatura
-- [ ] Exercício 6 - Contador de Vogais
-- [ ] Exercício 7 - Inverter String
-- [ ] Exercício 8 - Calcular Média
-- [ ] Exercício 9 - Verificar Maioridade
-- [ ] Exercício 10 - Repetir String
+- ✅ Exercício 2 - Área do Retângulo
+- ✅ Exercício 3 - Par ou Ímpar
+- ✅ Exercício 4 - Maior de Três
+- ✅ Exercício 5 - Conversor de Temperatura
+- ✅ Exercício 6 - Contador de Vogais
+- ✅ Exercício 7 - Inverter String
+- ✅ Exercício 8 - Calcular Média
+- ✅ Exercício 9 - Verificar Maioridade
+- ✅ Exercício 10 - Repetir String
 
 ### Bloco 2: Médios
-- [ ] Exercício 11 - Validador de CPF
-- [ ] Exercício 12 - Calculadora Personalizada
-- [ ] Exercício 13 - Palíndromo
-- [ ] Exercício 14 - Contador de Palavras
-- [ ] Exercício 15 - Números Primos
-- [ ] Exercício 16 - Fatorial Iterativo
-- [ ] Exercício 17 - Fibonacci até N
-- [ ] Exercício 18 - Remover Duplicatas
-- [ ] Exercício 19 - Ordenar Dicionário
-- [ ] Exercício 20 - Validador de Email
+- ✅ Exercício 11 - Validador de CPF
+- ✅ Exercício 12 - Calculadora Personalizada
+- ✅ Exercício 13 - Palíndromo
+- ✅ Exercício 14 - Contador de Palavras
+- ✅ Exercício 15 - Números Primos
+- ✅ Exercício 16 - Fatorial Iterativo
+- ✅ Exercício 17 - Fibonacci até N
+- ✅ Exercício 18 - Remover Duplicatas
+- ✅ Exercício 19 - Ordenar Dicionário
+- ✅ Exercício 20 - Validador de Email
 
 ### Bloco 3: Recursão
 - [ ] Exercício 21 - Contagem Regressiva
