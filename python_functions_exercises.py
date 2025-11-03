@@ -243,9 +243,11 @@ def remover_duplicatas(lista):
 # Crie uma função que ordene um dicionário pelos valores
 # Exemplo: ordenar_dict({"a": 3, "b": 1, "c": 2}) → {"b": 1, "c": 2, "a": 3}
 
+from operator import itemgetter
 def ordenar_dict(dicionario):
-    pass
+    dicionario_ordenado = dict(sorted(dicionario.items(), key=itemgetter(1)))
 
+    return dicionario_ordenado
 
 # EXERCÍCIO 20: Validador de Email Simples
 # Crie uma função que verifique se um email é válido (contém @ e .)
@@ -586,6 +588,7 @@ if __name__ == "__main__":
     print("Teste Exercício 16:", fatorial_iterativo(5))
     print("Teste Exercício 17:", fibonacci_ate(10))
     print("Teste Exercício 18:", remover_duplicatas([1, 2, 3, 3, 3, 4, 5, 5, 6]))
+    print("Teste Exercício 19:", ordenar_dict({'a': 3, 'b': 1, 'c': 2, 'd': 5, 'e': 4}))
     
     # print("Compare seus resultados com as funções *_solucao")
     
