@@ -302,8 +302,10 @@ def contagem_regressiva(n):
 # Exemplo: soma_ate_n(5) → 15 (1+2+3+4+5)
 
 def soma_ate_n(n):
-    pass
-
+    if n == 0: # Caso base: Se n == 0, não há o que somar
+        return 0
+    else:
+        return n + soma_ate_n(n - 1)
 
 # EXERCÍCIO 23: Fatorial Recursivo
 # Crie uma função recursiva que calcule o fatorial
@@ -605,6 +607,7 @@ if __name__ == "__main__":
     print("Teste Exercício 20:", validar_email('testeemail@gmail.com'))
     print("Teste Exercício 21:")
     print(contagem_regressiva(10))
+    print("Teste Exercício 22:", soma_ate_n(5))
     
     # print("Compare seus resultados com as funções *_solucao")
     
