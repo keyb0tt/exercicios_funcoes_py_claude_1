@@ -82,8 +82,9 @@ def contar_vogais(texto):
 # Exemplo: inverter("python") → "nohtyp"
 
 def inverter(texto):
-    pass
+    texto_invertido = texto[::-1]
 
+    return texto_invertido
 
 # EXERCÍCIO 8: Calcular Média
 # Crie uma função que receba uma lista de números e retorne a média
@@ -514,6 +515,7 @@ if __name__ == "__main__":
     print("Teste Exercício 4:", maior_de_tres(2, 10, 6))
     print("Teste Exercício 5:", celsius_para_fahrenheit(42))
     print("Teste Exercício 6:", contar_vogais('Vogaisteste'))
+    print("Teste Exercício 7:", inverter('Teste'))
     
     # print("Compare seus resultados com as funções *_solucao")
     
