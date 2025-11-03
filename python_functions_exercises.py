@@ -130,8 +130,10 @@ BLOCO 2: EXERCÍCIOS MÉDIOS (10 exercícios)
 # Exemplo: validar_cpf("12345678901") → True
 
 def validar_cpf(cpf):
-    pass
-
+    if len(cpf) == 11 and cpf.isdigit():
+        return True
+    else:
+        return False
 
 # EXERCÍCIO 12: Calculadora com Operação Personalizada
 # Crie uma função que receba dois números e uma operação (+, -, *, /)
@@ -528,6 +530,7 @@ if __name__ == "__main__":
     print("Teste Exercício 8:", calcular_media([10, 20, 30]))
     print("Teste Exercício 9:", eh_maior_de_idade(21))
     print("Teste Exercício 10:", repetir('Texto', 4))
+    print("Teste Exercício 10:", validar_cpf('12345678901'))
     
     # print("Compare seus resultados com as funções *_solucao")
     
