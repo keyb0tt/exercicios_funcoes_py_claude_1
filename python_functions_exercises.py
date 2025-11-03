@@ -291,8 +291,11 @@ def funcao_recursiva(parametro):
 # Exemplo: contagem_regressiva(3) → imprime 3, 2, 1, 0
 
 def contagem_regressiva(n):
-    pass
-
+    if n < 0:
+        return 'end'
+    else:
+        print(n)
+        return contagem_regressiva(n - 1)
 
 # EXERCÍCIO 22: Soma até N
 # Crie uma função recursiva que some todos os números de 1 até n
@@ -600,6 +603,8 @@ if __name__ == "__main__":
     print("Teste Exercício 18:", remover_duplicatas([1, 2, 3, 3, 3, 4, 5, 5, 6]))
     print("Teste Exercício 19:", ordenar_dict({'a': 3, 'b': 1, 'c': 2, 'd': 5, 'e': 4}))
     print("Teste Exercício 20:", validar_email('testeemail@gmail.com'))
+    print("Teste Exercício 21:")
+    print(contagem_regressiva(10))
     
     # print("Compare seus resultados com as funções *_solucao")
     
