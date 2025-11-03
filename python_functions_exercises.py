@@ -59,8 +59,9 @@ def maior_de_tres(a, b, c):
 # Exemplo: celsius_para_fahrenheit(0) → 32.0
 
 def celsius_para_fahrenheit(celsius):
-    pass
-
+    fahrenheit = (celsius * 9/5) + 32
+    
+    return fahrenheit
 
 # EXERCÍCIO 6: Contador de Vogais
 # Crie uma função que conte quantas vogais existem em uma string
@@ -505,6 +506,7 @@ if __name__ == "__main__":
     print("Teste Exercício 2:", area_retangulo(5, 10))
     print("Teste Exercício 3:", eh_par(12))
     print("Teste Exercício 4:", maior_de_tres(2, 10, 6))
+    print("Teste Exercício 5:", celsius_para_fahrenheit(42))
     
     # print("Compare seus resultados com as funções *_solucao")
     
