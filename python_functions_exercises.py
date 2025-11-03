@@ -48,7 +48,9 @@ def eh_par(numero):
 # Exemplo: maior_de_tres(10, 25, 15) → 25
 
 def maior_de_tres(a, b, c):
-    pass
+    numeros = [a, b, c]
+    
+    return max(numeros)
 
 
 # EXERCÍCIO 5: Conversor de Temperatura
@@ -502,6 +504,7 @@ if __name__ == "__main__":
     print("Teste Exercício 1:", saudacao("Kaique"))
     print("Teste Exercício 2:", area_retangulo(5, 10))
     print("Teste Exercício 3:", eh_par(12))
+    print("Teste Exercício 4:", maior_de_tres(2, 10, 6))
     
     # print("Compare seus resultados com as funções *_solucao")
     
