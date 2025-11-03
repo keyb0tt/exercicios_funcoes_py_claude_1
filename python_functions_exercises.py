@@ -100,14 +100,15 @@ def calcular_media(numeros):
 
     return media_numeros
 
-
 # EXERCÍCIO 9: Verificar Maioridade
 # Crie uma função que retorne True se idade >= 18, False caso contrário
 # Exemplo: eh_maior_de_idade(20) → True
 
 def eh_maior_de_idade(idade):
-    pass
-
+    if idade >= 18:
+        return True
+    else:
+        return False
 
 # EXERCÍCIO 10: Repetir String
 # Crie uma função que repita uma string n vezes
@@ -524,6 +525,7 @@ if __name__ == "__main__":
     print("Teste Exercício 6:", contar_vogais('Vogaisteste'))
     print("Teste Exercício 7:", inverter('Teste'))
     print("Teste Exercício 8:", calcular_media([10, 20, 30]))
+    print("Teste Exercício 9:", eh_maior_de_idade(21))
     
     # print("Compare seus resultados com as funções *_solucao")
     
