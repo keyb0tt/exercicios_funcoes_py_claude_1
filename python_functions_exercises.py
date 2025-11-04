@@ -349,8 +349,9 @@ def fibonacci(n):
 # Exemplo: inverter_recursivo("hello") → "olleh"
 
 def inverter_recursivo(texto):
-    pass
-
+    if len(texto) <= 1:
+        return texto
+    return texto[-1] + inverter_recursivo(texto[:-1])
 
 # EXERCÍCIO 27: Soma de Dígitos
 # Crie uma função recursiva que some todos os dígitos de um número
@@ -624,6 +625,7 @@ if __name__ == "__main__":
     print("Teste Exercício 23:", fatorial(5))
     print("Teste Exercício 24:", potencia(2, 3))
     print("Teste Exercício 25:", fibonacci(5))
+    print("Teste Exercício 26:", inverter_recursivo('texto'))
     
     # print("Compare seus resultados com as funções *_solucao")
     
