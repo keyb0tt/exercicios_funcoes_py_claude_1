@@ -195,13 +195,13 @@ Marque com ✅ conforme for completando:
 - ✅ Exercício 20 - Validador de Email
 
 ### Bloco 3: Recursão
-- [ ] Exercício 21 - Contagem Regressiva
-- [ ] Exercício 22 - Soma até N
-- [ ] Exercício 23 - Fatorial Recursivo
-- [ ] Exercício 24 - Potência Recursiva
-- [ ] Exercício 25 - Fibonacci Recursivo
-- [ ] Exercício 26 - Inverter String Recursivamente
-- [ ] Exercício 27 - Soma de Dígitos
+- ✅ Exercício 21 - Contagem Regressiva
+- ✅ Exercício 22 - Soma até N
+- ✅ Exercício 23 - Fatorial Recursivo
+- ✅ Exercício 24 - Potência Recursiva
+- ✅ Exercício 25 - Fibonacci Recursivo
+- ✅ Exercício 26 - Inverter String Recursivamente
+- ✅ Exercício 27 - Soma de Dígitos
 - [ ] Exercício 28 - MDC (Algoritmo de Euclides)
 - [ ] Exercício 29 - Palíndromo Recursivo
 - [ ] Exercício 30 - Torres de Hanói
