@@ -358,7 +358,11 @@ def inverter_recursivo(texto):
 # Exemplo: soma_digitos(123) → 6 (1+2+3)
 
 def soma_digitos(numero):
-    pass
+    if len(numero) <= 9:
+        return numero
+    else:
+
+        pass
 
 
 # EXERCÍCIO 28: Máximo Divisor Comum (MDC)
@@ -626,6 +630,7 @@ if __name__ == "__main__":
     print("Teste Exercício 24:", potencia(2, 3))
     print("Teste Exercício 25:", fibonacci(5))
     print("Teste Exercício 26:", inverter_recursivo('texto'))
+    print("Teste Exercício 27:", soma_digitos(1234))
     
     # print("Compare seus resultados com as funções *_solucao")
     
