@@ -337,8 +337,12 @@ def potencia(base, expoente):
 # Exemplo: fibonacci(6) → 8 (sequência: 0,1,1,2,3,5,8)
 
 def fibonacci(n):
-    pass
-
+    if n is 0:
+        return 0
+    if n is 1:
+        return 1
+    else:        
+        return fibonacci(n - 1) + fibonacci(n - 2) 
 
 # EXERCÍCIO 26: Inverter String Recursivamente
 # Crie uma função recursiva que inverta uma string
@@ -619,6 +623,7 @@ if __name__ == "__main__":
     print("Teste Exercício 22:", soma_ate_n(5))
     print("Teste Exercício 23:", fatorial(5))
     print("Teste Exercício 24:", potencia(2, 3))
+    print("Teste Exercício 25:", fibonacci(5))
     
     # print("Compare seus resultados com as funções *_solucao")
     
